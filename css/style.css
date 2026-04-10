@@ -369,3 +369,21 @@ textarea:focus {
   filter: blur(50px);
   z-index: -1;
 }
+
+.hero h1 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+
+.hero h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 999px;
+}
