@@ -1,79 +1,141 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Web Studio | ポートフォリオ</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>シンプルWeb制作 | ポートフォリオ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
-  <header>
-    <h1>Simple Web Studio</h1>
-    <nav>
-      <a href="#services">サービス</a>
-      <a href="#flow">制作の流れ</a>
-      <a href="#price">料金</a>
-      <a href="#profile">プロフィール</a>
-      <a href="#contact">お問い合わせ</a>
-    </nav>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Simple Web Studio</div>
+      <nav class="nav">
+        <button class="nav-toggle"><span></span><span></span><span></span></button>
+        <ul class="nav-list">
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#flow">流れ</a></li>
+          <li><a href="#pricing">料金</a></li>
+          <li><a href="#about">プロフィール</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h1>あなたのビジネスを<br>シンプルに伝えるWebサイト</h1>
-      <p>個人事業・小さなお店向けの、やさしくて見やすいWebサイトを制作します。</p>
-      <a href="#contact" class="cta">無料で相談する</a>
-    </div>
-    <div class="hero-img">
-      <img src="img/hero.png" alt="Hero illustration">
-    </div>
-  </section>
+  <!-- Hero -->
+  <section class="hero section">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-label">個人・小規模向け</p>
+        <h1>シンプルで伝わる<br>Webサイトを制作します。</h1>
+        <p class="hero-sub">
+          副業として活動しているWeb制作者です。<br>
+          小さなサイトから丁寧に対応します。
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">お問い合わせ</a>
+          <a href="#services" class="btn ghost">サービスを見る</a>
+        </div>
+      </div>
 
-  <section id="services" class="services">
-    <h2>サービス</h2>
-    <div class="service-list">
-      <div class="service-item">
-        <h3>シンプルWebサイト制作</h3>
-        <p>必要な情報をわかりやすくまとめた、見やすいWebサイトを制作します。</p>
-      </div>
-      <div class="service-item">
-        <h3>スマホ対応</h3>
-        <p>スマホでも見やすいレスポンシブデザインで制作します。</p>
-      </div>
-      <div class="service-item">
-        <h3>更新サポート</h3>
-        <p>公開後の文章変更や画像差し替えなどもサポートします。</p>
+      <div class="hero-visual">
+        <img src="img/icons/hero.svg" alt="Hero image" class="hero-illust">
       </div>
     </div>
   </section>
 
-  <section id="flow" class="flow">
-    <h2>制作の流れ</h2>
-    <p>（ここに制作の流れを追加できます）</p>
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container center">
+      <h2 class="section-title">できること</h2>
+      <p class="section-lead">ひとつひとつ丁寧に対応します。</p>
+
+      <div class="grid cards">
+        <article class="card">
+          <img src="img/icons/code.svg" class="icon">
+          <h3>HTML / CSS コーディング</h3>
+          <p>デザインから静的ページを制作します。</p>
+        </article>
+
+        <article class="card">
+          <img src="img/icons/layout.svg" class="icon">
+          <h3>LP制作</h3>
+          <p>サービス紹介やキャンペーン用ページを制作します。</p>
+        </article>
+
+        <article class="card">
+          <img src="img/icons/tools.svg" class="icon">
+          <h3>既存サイトの調整</h3>
+          <p>文言変更やレイアウト修正など小さな改修も対応。</p>
+        </article>
+      </div>
+    </div>
   </section>
 
-  <section id="price" class="price">
-    <h2>料金</h2>
-    <p>（ここに料金表を追加できます）</p>
+  <!-- Flow -->
+  <section id="flow" class="section section-alt">
+    <div class="container center">
+      <h2 class="section-title">制作の流れ</h2>
+      <p class="section-lead">難しい言葉を使わず、わかりやすく進めます。</p>
+
+      <ol class="flow-list">
+        <li><img src="img/icons/message.svg"><span>ヒアリング</span></li>
+        <li><img src="img/icons/pencil.svg"><span>構成・ラフ案</span></li>
+        <li><img src="img/icons/brush.svg"><span>デザイン・コーディング</span></li>
+        <li><img src="img/icons/check.svg"><span>確認・調整</span></li>
+        <li><img src="img/icons/upload.svg"><span>公開</span></li>
+      </ol>
+    </div>
   </section>
 
-  <section id="profile" class="profile">
-    <h2>プロフィール</h2>
-    <p>（ここにプロフィールを追加できます）</p>
+  <!-- Pricing -->
+  <section id="pricing" class="section">
+    <div class="container center">
+      <h2 class="section-title">料金の目安</h2>
+      <p class="section-lead">内容によって変動します。</p>
+
+      <div class="grid cards">
+        <article class="card"><h3>LP制作</h3><p class="price">30,000円〜</p></article>
+        <article class="card"><h3>コーディングのみ</h3><p class="price">10,000円〜</p></article>
+        <article class="card"><h3>既存サイトの修正</h3><p class="price">5,000円〜</p></article>
+      </div>
+    </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>お問い合わせ</h2>
-    <p>Webサイト制作のご相談はお気軽にどうぞ。</p>
-    <a href="mailto:example@example.com" class="cta">メールで問い合わせる</a>
+  <!-- About -->
+  <section id="about" class="section section-alt">
+    <div class="container center">
+      <h2 class="section-title">プロフィール</h2>
+      <p class="section-lead">
+        副業としてWeb制作を行っています。<br>
+        丁寧さと誠実さを大切にしています。
+      </p>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2024 Simple Web Studio</p>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container center">
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="section-lead">お気軽にご相談ください。</p>
+
+      <form class="contact-form" onsubmit="return false;">
+        <input type="text" placeholder="お名前（ニックネーム可）">
+        <input type="email" placeholder="メールアドレス">
+        <textarea rows="5" placeholder="ご相談内容"></textarea>
+        <button class="btn primary">送信（ダミー）</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© Simple Web Studio</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
