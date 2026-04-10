@@ -18,6 +18,19 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
   gap: 6px;
   font-weight: 600;
   font-size: 20px;
