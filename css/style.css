@@ -121,7 +121,6 @@ a {
   overflow: hidden;
 }
 
-/* 光の背景エフェクト */
 .hero::before {
   content: "";
   position: absolute;
