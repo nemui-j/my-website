@@ -317,3 +317,21 @@ textarea:focus {
     display: flex;
   }
 }
+/* ------------------------------
+   PC 版ナビ（横並び）
+------------------------------ */
+@media (min-width: 769px) {
+  .nav-list {
+    display: flex;
+    gap: 22px;
+    position: static;
+    background: none;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
