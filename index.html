@@ -27,7 +27,7 @@
 
   <main>
     <!-- ヒーロー -->
-    <section class="hero">
+    <section class="hero section">
       <div class="container hero-inner">
         <div class="hero-text">
           <p class="hero-label">個人・小規模向け</p>
@@ -41,15 +41,10 @@
             <a href="#services" class="btn ghost">サービス内容を見る</a>
           </div>
         </div>
+
         <div class="hero-visual">
-          <div class="hero-card">
-            <p class="hero-card-title">こんな方に</p>
-            <ul>
-              <li>まずはシンプルなサイトが欲しい</li>
-              <li>難しい専門用語はなるべく避けたい</li>
-              <li>予算を抑えつつ、ちゃんとした見た目にしたい</li>
-            </ul>
-          </div>
+          <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/device-laptop.svg"
+               alt="Laptop icon" class="hero-illust">
         </div>
       </div>
     </section>
@@ -61,33 +56,30 @@
         <p class="section-lead">
           実績はまだ多くありませんが、ひとつひとつの案件を丁寧に対応します。
         </p>
+
         <div class="grid cards">
           <article class="card">
+            <div class="icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/code.svg" width="32">
+            </div>
             <h3>HTML / CSS コーディング</h3>
             <p>デザインデータやラフ案から、静的なWebページをコーディングします。</p>
-            <ul class="card-list">
-              <li>セマンティックなHTML</li>
-              <li>レスポンシブ対応</li>
-              <li>軽量な構成</li>
-            </ul>
           </article>
+
           <article class="card">
+            <div class="icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/layout.svg" width="32">
+            </div>
             <h3>ランディングページ制作</h3>
             <p>サービス紹介やキャンペーン用の1ページ構成サイトを制作します。</p>
-            <ul class="card-list">
-              <li>シンプルな構成提案</li>
-              <li>テキスト・構成の相談も可</li>
-              <li>小規模事業・個人向け</li>
-            </ul>
           </article>
+
           <article class="card">
+            <div class="icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/tools.svg" width="32">
+            </div>
             <h3>既存サイトの調整</h3>
             <p>文言変更やレイアウト崩れの修正など、小さな改修も対応します。</p>
-            <ul class="card-list">
-              <li>テキスト差し替え</li>
-              <li>スタイル調整</li>
-              <li>簡単なレイアウト修正</li>
-            </ul>
           </article>
         </div>
       </div>
@@ -100,26 +92,56 @@
         <p class="section-lead">
           なるべく難しい言葉を使わず、今どんな段階かを共有しながら進めます。
         </p>
+
         <ol class="flow-list">
           <li>
-            <h3>1. ヒアリング</h3>
-            <p>やりたいこと・目的・予算感などをお伺いします。オンラインでのやり取りが中心です。</p>
+            <div class="flow-icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/message.svg" width="28">
+            </div>
+            <div>
+              <h3>1. ヒアリング</h3>
+              <p>目的・イメージ・予算感などをお伺いします。</p>
+            </div>
           </li>
+
           <li>
-            <h3>2. 構成・ラフ案</h3>
-            <p>ページ構成や大まかなレイアウトを共有し、認識を合わせます。</p>
+            <div class="flow-icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/pencil.svg" width="28">
+            </div>
+            <div>
+              <h3>2. 構成・ラフ案</h3>
+              <p>ページ構成や大まかなレイアウトを共有します。</p>
+            </div>
           </li>
+
           <li>
-            <h3>3. デザイン・コーディング</h3>
-            <p>シンプルで見やすいデザインを意識しながら、実際のページを作っていきます。</p>
+            <div class="flow-icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/brush.svg" width="28">
+            </div>
+            <div>
+              <h3>3. デザイン・コーディング</h3>
+              <p>シンプルで見やすいデザインを意識して制作します。</p>
+            </div>
           </li>
+
           <li>
-            <h3>4. 確認・調整</h3>
-            <p>PC・スマホでの表示を確認しながら、文言や細かな見た目を調整します。</p>
+            <div class="flow-icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/check.svg" width="28">
+            </div>
+            <div>
+              <h3>4. 確認・調整</h3>
+              <p>PC・スマホでの表示を確認しながら調整します。</p>
+            </div>
           </li>
+
           <li>
-            <h3>5. 公開</h3>
-            <p>ご希望のサーバーやサービス（GitHub Pages / Netlify など）への公開をお手伝いします。</p>
+            <div class="flow-icon">
+              <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/upload.svg" width="28">
+            </div>
+            <div>
+              <h3>5. 公開</h3>
+              <p>ご希望の環境（GitHub Pages / Netlify）へ公開します。</p>
+            </div>
           </li>
         </ol>
       </div>
@@ -129,27 +151,24 @@
     <section id="pricing" class="section">
       <div class="container">
         <h2 class="section-title">料金の目安</h2>
-        <p class="section-lead">
-          内容やボリュームによって変動しますが、だいたいの目安としてご覧ください。
-        </p>
+        <p class="section-lead">内容によって変動しますが、だいたいの目安です。</p>
+
         <div class="grid cards">
           <article class="card">
             <h3>LP制作</h3>
             <p class="price">30,000円〜</p>
-            <p>1ページ構成のランディングページ。シンプルな構成で、まずは形にしたい方向け。</p>
           </article>
+
           <article class="card">
             <h3>コーディングのみ</h3>
             <p class="price">10,000円〜</p>
-            <p>デザインデータ（Figma / XD / 画像など）からのコーディングを行います。</p>
           </article>
+
           <article class="card">
             <h3>既存サイトの修正</h3>
             <p class="price">5,000円〜</p>
-            <p>文言変更・スタイル調整など、小さな修正からご相談いただけます。</p>
           </article>
         </div>
-        <p class="note">※あくまで目安です。具体的な内容を伺った上でお見積りいたします。</p>
       </div>
     </section>
 
@@ -162,13 +181,10 @@
             本業とは別に、副業としてWeb制作を行っています。<br>
             実名や勤務先は公開していませんが、その分「丁寧さ」と「誠実さ」を大事にしています。
           </p>
-          <p>
-            小規模サイトや個人事業主の方向けに、<br>
-            「まずはシンプルでいいから、ちゃんとしたサイトが欲しい」という声に応えられるような制作を目指しています。
-          </p>
         </div>
+
         <div class="about-card">
-          <p class="about-label">活動スタイル</p>
+          <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/user.svg" width="48" class="about-icon">
           <ul>
             <li>平日夜・休日中心の対応</li>
             <li>オンラインでのやり取りのみ</li>
@@ -182,27 +198,24 @@
     <section id="contact" class="section">
       <div class="container">
         <h2 class="section-title">お問い合わせ</h2>
-        <p class="section-lead">
-          まだ依頼するか決めていない段階でも大丈夫です。<br>
-          「こんなことできる？」という軽いご相談からお気軽にどうぞ。
-        </p>
+        <p class="section-lead">軽いご相談からお気軽にどうぞ。</p>
 
         <form class="contact-form" onsubmit="return false;">
           <div class="form-row">
             <label for="name">お名前（ニックネーム可）</label>
-            <input type="text" id="name" name="name" placeholder="例）山田さん / カフェオーナー など" />
+            <input type="text" id="name" />
           </div>
+
           <div class="form-row">
             <label for="email">メールアドレス</label>
-            <input type="email" id="email" name="email" placeholder="example@example.com" />
+            <input type="email" id="email" />
           </div>
+
           <div class="form-row">
             <label for="message">ご相談内容</label>
-            <textarea id="message" name="message" rows="5" placeholder="作りたいサイトのイメージや、今困っていることなど"></textarea>
+            <textarea id="message" rows="5"></textarea>
           </div>
-          <p class="note small">
-            ※ 実際の運用では、Googleフォームやメールリンクに差し替えることをおすすめします。
-          </p>
+
           <button class="btn primary" type="submit">送信（ダミー）</button>
         </form>
       </div>
@@ -212,7 +225,6 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p class="footer-copy">© Simple Web Studio</p>
-      <p class="footer-note">このサイトはポートフォリオ兼テスト用として制作されています。</p>
     </div>
   </footer>
 
