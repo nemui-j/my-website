@@ -1,3 +1,4 @@
+/* 全体 */
 body {
   margin: 0;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -19,26 +20,14 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .logo-icon {
   width: 24px;
   height: 24px;
   display: block;
-}
-
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.logo-icon {
-  width: 22px;
-  height: 22px;
 }
 
 nav a {
@@ -103,24 +92,6 @@ nav a {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-/* Works */
-.works {
-  padding: 60px 40px;
-}
-
-.work-list {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.work-item {
-  width: 260px;
-  height: 160px;
-  background: #e8f2ff;
-  border-radius: 12px;
 }
 
 /* Contact */
